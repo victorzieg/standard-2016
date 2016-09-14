@@ -1,7 +1,7 @@
 {
-  "name": "standard",
+  "name": "Standard-2016",
   "version": "1.0.0",
-  "description": "This is only for compiling standard theme sass files.",
+  "description": "This is only for compiling Standard-2016 theme sass files.",
   "author": "Francis",
   "devDependencies": {
     "grunt": "^1.0.1",

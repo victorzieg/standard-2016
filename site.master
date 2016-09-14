@@ -37,9 +37,9 @@
     <link rel="shortcut icon" href="~/Content/images/blog/blogengine.ico" type="image/x-icon" />
     <style>
         body {
-            background: [CUSTOMFIELD|THEME|Standard|background color left|#232526/];
-            background: -webkit-linear-gradient(to left, [CUSTOMFIELD|THEME|Standard|background color right|#414345/], [CUSTOMFIELD|THEME|Standard|background color left|#232526/]);
-            background: linear-gradient(to left, [CUSTOMFIELD|THEME|Standard|background color right|#414345/], [CUSTOMFIELD|THEME|Standard|background color left|#232526/]);
+            background: [CUSTOMFIELD|THEME|Standard-2016|background color left|#232526/];
+            background: -webkit-linear-gradient(to left, [CUSTOMFIELD|THEME|Standard-2016|background color right|#414345/], [CUSTOMFIELD|THEME|Standard-2016|background color left|#232526/]);
+            background: linear-gradient(to left, [CUSTOMFIELD|THEME|Standard-2016|background color right|#414345/], [CUSTOMFIELD|THEME|Standard-2016|background color left|#232526/]);
         }
     </style>
 </head>
@@ -51,21 +51,21 @@
                     <header class="blog-header">
                         <div class="blog-info">
                             <a class="blog-logo" href="<%=Utils.AbsoluteWebRoot %>" tabindex="-1">
-                                <img src="<%=Utils.AbsoluteWebRoot %>[CUSTOMFIELD|THEME|Standard|Logo|Custom/Themes/Standard/src/img/logo.png/]" alt="<%=BlogSettings.Instance.Name %>" />
+                                <img src="<%=Utils.AbsoluteWebRoot %>[CUSTOMFIELD|THEME|Standard-2016|Logo|Custom/Themes/Standard-2016/src/img/logo.png/]" alt="<%=BlogSettings.Instance.Name %>" />
                                 <%=BlogSettings.Instance.Name %>
                             </a>
                             <div class="blog-author">
-                                [CUSTOMFIELD|THEME|Standard|About Author|/]
+                                [CUSTOMFIELD|THEME|Standard-2016|About Author|/]
                             </div>
                             <ul class="social-network">
-                                <li><a href="[CUSTOMFIELD|THEME|Standard|Facebook Account|/]" rel="external nofollow"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="[CUSTOMFIELD|THEME|Standard|Twitter Account|/]" rel="external nofollow"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="[CUSTOMFIELD|THEME|Standard|Google Plus Account|/]" rel="external nofollow"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="[CUSTOMFIELD|THEME|Standard|Linkedin Account|/]" rel="external nofollow"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="[CUSTOMFIELD|THEME|Standard|Instagramm Account|/]" rel="external nofollow"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="[CUSTOMFIELD|THEME|Standard|Youtube Account|/]" rel="external nofollow"><i class="fa fa-youtube"></i></a></li>
-                                <li><a href="[CUSTOMFIELD|THEME|Standard|Github Account|/]" rel="external nofollow"><i class="fa fa-git"></i></a></li>
-                                <li><a href="[CUSTOMFIELD|THEME|Standard|Pinterest Account|/]" rel="external nofollow"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="[CUSTOMFIELD|THEME|Standard-2016|Facebook Account|/]" rel="external nofollow"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="[CUSTOMFIELD|THEME|Standard-2016|Twitter Account|/]" rel="external nofollow"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="[CUSTOMFIELD|THEME|Standard-2016|Google Plus Account|/]" rel="external nofollow"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="[CUSTOMFIELD|THEME|Standard-2016|Linkedin Account|/]" rel="external nofollow"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="[CUSTOMFIELD|THEME|Standard-2016|Instagramm Account|/]" rel="external nofollow"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="[CUSTOMFIELD|THEME|Standard-2016|Youtube Account|/]" rel="external nofollow"><i class="fa fa-youtube"></i></a></li>
+                                <li><a href="[CUSTOMFIELD|THEME|Standard-2016|Github Account|/]" rel="external nofollow"><i class="fa fa-git"></i></a></li>
+                                <li><a href="[CUSTOMFIELD|THEME|Standard-2016|Pinterest Account|/]" rel="external nofollow"><i class="fa fa-pinterest"></i></a></li>
                             </ul>
                         </div>
                         <nav class="blog-nav">
@@ -90,13 +90,13 @@
                         </p>
                     </footer>
                 </aside>
-                <div class="blog-content admin-alerts-[CUSTOMFIELD|THEME|Standard|Home Alert Box (true or false?)|true/]">
+                <div class="blog-content admin-alerts-[CUSTOMFIELD|THEME|Standard-2016|Home Alert Box (true or false?)|true/]">
                     <asp:ContentPlaceHolder ID="cphBody" runat="server" />
                 </div>
             </div>
         </div>
-        <script src="<%=Utils.RelativeWebRoot %>custom/themes/standard/src/js/bootstrap.min.js"></script>
-        <script src="<%=Utils.RelativeWebRoot %>custom/themes/standard/src/js/custom.js"></script>
+        <script src="<%=Utils.RelativeWebRoot %>custom/themes/Standard-2016/src/js/bootstrap.min.js"></script>
+        <script src="<%=Utils.RelativeWebRoot %>custom/themes/Standard-2016/src/js/custom.js"></script>
     </form>
 </body>
 </html>
